@@ -1,1 +1,1 @@
-web: gunicorn predictor:app --log-file=-
+web: gunicorn app:app
