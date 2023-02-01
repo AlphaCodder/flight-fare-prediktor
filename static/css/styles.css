@@ -1,7 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap');
 
-
+/* make mobile friendly */
+@media screen and (max-width: 600px) {
+    .dev-name {
+        font-size: 1.2em;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .navbar-brand {
+        font-size: 1.5em;
+        display: block;
+    }
+    .author {
+        display: block;
+    }
+}
 
 body {
     background-color: #a3abaa;
@@ -10,6 +25,7 @@ body {
 }
 
 .navbar {
+    width: 100vw;
     background-color: #333333;
 }
 
